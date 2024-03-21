@@ -22,9 +22,28 @@ Partial Class Login
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Text = "Login"
+        Button1 = New Button()
+        SuspendLayout()
+        ' 
+        ' Button1
+        ' 
+        Button1.Location = New Point(191, 174)
+        Button1.Name = "Button1"
+        Button1.Size = New Size(252, 23)
+        Button1.TabIndex = 0
+        Button1.Text = "Button1"
+        Button1.UseVisualStyleBackColor = True
+        ' 
+        ' Login
+        ' 
+        AutoScaleDimensions = New SizeF(7F, 15F)
+        AutoScaleMode = AutoScaleMode.Font
+        ClientSize = New Size(800, 450)
+        Controls.Add(Button1)
+        Name = "Login"
+        Text = "Login"
+        ResumeLayout(False)
     End Sub
+
+    Friend WithEvents Button1 As Button
 End Class

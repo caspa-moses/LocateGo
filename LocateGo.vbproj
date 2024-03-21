@@ -7,7 +7,13 @@
     <UseWindowsForms>true</UseWindowsForms>
     <MyType>WindowsForms</MyType>
     <SupportedOSPlatformVersion>8.0</SupportedOSPlatformVersion>
+    <ApplicationIcon>images\app.ico</ApplicationIcon>
+    <UseWPF>True</UseWPF>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="images\app.ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <Import Include="System.Data" />

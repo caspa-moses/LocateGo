@@ -18,3 +18,8 @@ C:\Users\KINOTI\Downloads\LocateGo\obj\Release\net8.0-windows10.0.22621.0\refint
 C:\Users\KINOTI\Downloads\LocateGo\obj\Release\net8.0-windows10.0.22621.0\LocateGo.pdb
 C:\Users\KINOTI\Downloads\LocateGo\obj\Release\net8.0-windows10.0.22621.0\LocateGo.genruntimeconfig.cache
 C:\Users\KINOTI\Downloads\LocateGo\obj\Release\net8.0-windows10.0.22621.0\ref\LocateGo.dll
+C:\Users\KINOTI\Downloads\LocateGo\obj\Release\net8.0-windows10.0.22621.0\LocateGo.EachCompany.resources
+C:\Users\KINOTI\Downloads\LocateGo\obj\Release\net8.0-windows10.0.22621.0\LocateGo.Login.resources
+C:\Users\KINOTI\Downloads\LocateGo\obj\Release\net8.0-windows10.0.22621.0\LocateGo.MoverDashboard.resources
+C:\Users\KINOTI\Downloads\LocateGo\obj\Release\net8.0-windows10.0.22621.0\LocateGo.UserDasboard.resources
+C:\Users\KINOTI\Downloads\LocateGo\obj\Release\net8.0-windows10.0.22621.0\LocateGo.sourcelink.json
