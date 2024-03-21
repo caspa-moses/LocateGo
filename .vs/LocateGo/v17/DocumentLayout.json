@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\KINOTI\\Downloads\\LocateGo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F75C5AB0-FA9D-4F53-860C-6383FA1E5DDA}|LocateGo.vbproj|c:\\users\\kinoti\\downloads\\locatego\\eachcompany.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{F75C5AB0-FA9D-4F53-860C-6383FA1E5DDA}|LocateGo.vbproj|solutionrelative:eachcompany.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F75C5AB0-FA9D-4F53-860C-6383FA1E5DDA}|LocateGo.vbproj|c:\\users\\kinoti\\downloads\\locatego\\moverdashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{F75C5AB0-FA9D-4F53-860C-6383FA1E5DDA}|LocateGo.vbproj|solutionrelative:moverdashboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F75C5AB0-FA9D-4F53-860C-6383FA1E5DDA}|LocateGo.vbproj|c:\\users\\kinoti\\downloads\\locatego\\userdasboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{F75C5AB0-FA9D-4F53-860C-6383FA1E5DDA}|LocateGo.vbproj|solutionrelative:userdasboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F75C5AB0-FA9D-4F53-860C-6383FA1E5DDA}|LocateGo.vbproj|c:\\users\\kinoti\\downloads\\locatego\\login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{F75C5AB0-FA9D-4F53-860C-6383FA1E5DDA}|LocateGo.vbproj|solutionrelative:login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F75C5AB0-FA9D-4F53-860C-6383FA1E5DDA}|LocateGo.vbproj|c:\\users\\kinoti\\downloads\\locatego\\signup.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{F75C5AB0-FA9D-4F53-860C-6383FA1E5DDA}|LocateGo.vbproj|solutionrelative:signup.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F75C5AB0-FA9D-4F53-860C-6383FA1E5DDA}|LocateGo.vbproj|C:\\Users\\KINOTI\\Downloads\\LocateGo\\signup.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{F75C5AB0-FA9D-4F53-860C-6383FA1E5DDA}|LocateGo.vbproj|solutionrelative:signup.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EachCompany.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\KINOTI\\Downloads\\LocateGo\\EachCompany.vb",
+              "RelativeDocumentMoniker": "EachCompany.vb",
+              "ToolTip": "C:\\Users\\KINOTI\\Downloads\\LocateGo\\EachCompany.vb [Design]",
+              "RelativeToolTip": "EachCompany.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-03-21T05:47:59.39Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MoverDashboard.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\KINOTI\\Downloads\\LocateGo\\MoverDashboard.vb",
+              "RelativeDocumentMoniker": "MoverDashboard.vb",
+              "ToolTip": "C:\\Users\\KINOTI\\Downloads\\LocateGo\\MoverDashboard.vb [Design]",
+              "RelativeToolTip": "MoverDashboard.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-03-21T05:45:15.416Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserDasboard.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\KINOTI\\Downloads\\LocateGo\\UserDasboard.vb",
+              "RelativeDocumentMoniker": "UserDasboard.vb",
+              "ToolTip": "C:\\Users\\KINOTI\\Downloads\\LocateGo\\UserDasboard.vb [Design]",
+              "RelativeToolTip": "UserDasboard.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-03-21T05:44:07.35Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\KINOTI\\Downloads\\LocateGo\\Login.vb",
+              "RelativeDocumentMoniker": "Login.vb",
+              "ToolTip": "C:\\Users\\KINOTI\\Downloads\\LocateGo\\Login.vb [Design]",
+              "RelativeToolTip": "Login.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-03-21T05:42:54.601Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Signup.vb",
+              "DocumentMoniker": "C:\\Users\\KINOTI\\Downloads\\LocateGo\\Signup.vb",
+              "RelativeDocumentMoniker": "Signup.vb",
+              "ToolTip": "C:\\Users\\KINOTI\\Downloads\\LocateGo\\Signup.vb",
+              "RelativeToolTip": "Signup.vb",
+              "ViewState": "AQIAABQAAAAAAAAAAAAUwCcAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-03-19T10:55:23.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Signup.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\KINOTI\\Downloads\\LocateGo\\Signup.vb",
+              "RelativeDocumentMoniker": "Signup.vb",
+              "ToolTip": "C:\\Users\\KINOTI\\Downloads\\LocateGo\\Signup.vb [Design]",
+              "RelativeToolTip": "Signup.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-03-19T12:46:10.18Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

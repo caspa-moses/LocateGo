@@ -1,0 +1,17 @@
+C:\Users\KINOTI\Downloads\LocateGo\bin\Debug\net8.0-windows\LocateGo.exe
+C:\Users\KINOTI\Downloads\LocateGo\bin\Debug\net8.0-windows\LocateGo.deps.json
+C:\Users\KINOTI\Downloads\LocateGo\bin\Debug\net8.0-windows\LocateGo.runtimeconfig.json
+C:\Users\KINOTI\Downloads\LocateGo\bin\Debug\net8.0-windows\LocateGo.dll
+C:\Users\KINOTI\Downloads\LocateGo\bin\Debug\net8.0-windows\LocateGo.pdb
+C:\Users\KINOTI\Downloads\LocateGo\obj\Debug\net8.0-windows\LocateGo.Form1.resources
+C:\Users\KINOTI\Downloads\LocateGo\obj\Debug\net8.0-windows\LocateGo.Signup.resources
+C:\Users\KINOTI\Downloads\LocateGo\obj\Debug\net8.0-windows\LocateGo.vbproj.GenerateResource.cache
+C:\Users\KINOTI\Downloads\LocateGo\obj\Debug\net8.0-windows\LocateGo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KINOTI\Downloads\LocateGo\obj\Debug\net8.0-windows\LocateGo.AssemblyInfoInputs.cache
+C:\Users\KINOTI\Downloads\LocateGo\obj\Debug\net8.0-windows\LocateGo.AssemblyInfo.vb
+C:\Users\KINOTI\Downloads\LocateGo\obj\Debug\net8.0-windows\LocateGo.vbproj.CoreCompileInputs.cache
+C:\Users\KINOTI\Downloads\LocateGo\obj\Debug\net8.0-windows\LocateGo.dll
+C:\Users\KINOTI\Downloads\LocateGo\obj\Debug\net8.0-windows\refint\LocateGo.dll
+C:\Users\KINOTI\Downloads\LocateGo\obj\Debug\net8.0-windows\LocateGo.pdb
+C:\Users\KINOTI\Downloads\LocateGo\obj\Debug\net8.0-windows\LocateGo.genruntimeconfig.cache
+C:\Users\KINOTI\Downloads\LocateGo\obj\Debug\net8.0-windows\ref\LocateGo.dll

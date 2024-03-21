@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "mf63e2CIYLUo2hOC2E+qhhmS4ITxBTt8jjaf6ZEpv+X2zNY1VN/hYbgrWdwadJZU14pXbnNx6dNV6981vXGt5Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\KINOTI\\Downloads\\LocateGo\\LocateGo.vbproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\KINOTI\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.22621.31\\microsoft.windows.sdk.net.ref.10.0.22621.31.nupkg.sha512"
+  ],
+  "logs": []
+}
