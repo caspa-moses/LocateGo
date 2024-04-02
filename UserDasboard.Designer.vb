@@ -35,10 +35,6 @@ Partial Class UserDasboard
         SearchTextBox = New TextBox()
         NotificationButton = New Button()
         TrackButton = New Button()
-        PickupComboBox = New ComboBox()
-        PickupLabel = New Label()
-        DestinationLabel = New Label()
-        DestinationComboBox = New ComboBox()
         filterPanel = New Panel()
         SortComboBox = New ComboBox()
         Label1 = New Label()
@@ -59,7 +55,7 @@ Partial Class UserDasboard
         SidePanel.Dock = DockStyle.Left
         SidePanel.Location = New Point(0, 0)
         SidePanel.Name = "SidePanel"
-        SidePanel.Size = New Size(154, 477)
+        SidePanel.Size = New Size(154, 461)
         SidePanel.TabIndex = 0
         ' 
         ' LogoutButton
@@ -71,7 +67,7 @@ Partial Class UserDasboard
         LogoutButton.FlatStyle = FlatStyle.Flat
         LogoutButton.ForeColor = Color.White
         LogoutButton.Image = My.Resources.Resources.logout_24
-        LogoutButton.Location = New Point(0, 432)
+        LogoutButton.Location = New Point(0, 416)
         LogoutButton.Name = "LogoutButton"
         LogoutButton.Size = New Size(30, 30)
         LogoutButton.TabIndex = 4
@@ -148,7 +144,7 @@ Partial Class UserDasboard
         TopPanel.Dock = DockStyle.Top
         TopPanel.Location = New Point(154, 0)
         TopPanel.Name = "TopPanel"
-        TopPanel.Size = New Size(765, 40)
+        TopPanel.Size = New Size(589, 40)
         TopPanel.TabIndex = 4
         ' 
         ' SearchButton
@@ -159,7 +155,7 @@ Partial Class UserDasboard
         SearchButton.FlatStyle = FlatStyle.Flat
         SearchButton.ForeColor = Color.White
         SearchButton.Image = My.Resources.Resources.search_13_16
-        SearchButton.Location = New Point(433, 13)
+        SearchButton.Location = New Point(345, 13)
         SearchButton.Name = "SearchButton"
         SearchButton.Size = New Size(24, 24)
         SearchButton.TabIndex = 8
@@ -168,7 +164,7 @@ Partial Class UserDasboard
         ' SearchTextBox
         ' 
         SearchTextBox.Anchor = AnchorStyles.Top
-        SearchTextBox.Location = New Point(259, 15)
+        SearchTextBox.Location = New Point(171, 15)
         SearchTextBox.Name = "SearchTextBox"
         SearchTextBox.Size = New Size(168, 23)
         SearchTextBox.TabIndex = 7
@@ -181,7 +177,7 @@ Partial Class UserDasboard
         NotificationButton.FlatStyle = FlatStyle.Flat
         NotificationButton.ForeColor = Color.White
         NotificationButton.Image = My.Resources.Resources.appointment_reminders_16
-        NotificationButton.Location = New Point(656, 12)
+        NotificationButton.Location = New Point(480, 12)
         NotificationButton.Name = "NotificationButton"
         NotificationButton.Size = New Size(24, 24)
         NotificationButton.TabIndex = 6
@@ -195,71 +191,20 @@ Partial Class UserDasboard
         TrackButton.FlatStyle = FlatStyle.Flat
         TrackButton.ForeColor = Color.White
         TrackButton.Image = My.Resources.Resources.map_marker_16
-        TrackButton.Location = New Point(692, 12)
+        TrackButton.Location = New Point(516, 12)
         TrackButton.Name = "TrackButton"
         TrackButton.Size = New Size(24, 24)
         TrackButton.TabIndex = 5
         TrackButton.UseVisualStyleBackColor = True
         ' 
-        ' PickupComboBox
-        ' 
-        PickupComboBox.Anchor = AnchorStyles.Top
-        PickupComboBox.AutoCompleteCustomSource.AddRange(New String() {"Nairobi", "Nakuru", "Kisumu", "Mombasa"})
-        PickupComboBox.AutoCompleteMode = AutoCompleteMode.SuggestAppend
-        PickupComboBox.AutoCompleteSource = AutoCompleteSource.ListItems
-        PickupComboBox.FormattingEnabled = True
-        PickupComboBox.Items.AddRange(New Object() {"Baringo County", "Bomet County", "Bungoma County", "Busia County", "Elgeyo Marakwet County", "Embu County", "Garissa County", "Homa Bay County", "Isiolo County", "Kajiado County", "Kakamega County", "Kericho County", "Kiambu County", "Kilifi County", "Kirinyaga County", "Kisii County", "Kisumu County", "Kitui County", "Kwale County", "Laikipia County", "Lamu County", "Machakos County", "Makueni County", "Mandera County", "Meru County", "Migori County", "Marsabit County", "Mombasa County", "Muranga County", "Nairobi County", "Nakuru County", "Nandi County", "Narok County", "Nyamira County", "Nyandarua County", "Nyeri County", "Samburu County", "Siaya County", "Taita Taveta County", "Tana River County", "Tharaka Nithi County", "Trans Nzoia County", "Turkana County", "Uasin Gishu County", "Vihiga County", "Wajir County", "West Pokot County"})
-        PickupComboBox.Location = New Point(313, 8)
-        PickupComboBox.Name = "PickupComboBox"
-        PickupComboBox.Size = New Size(152, 23)
-        PickupComboBox.TabIndex = 5
-        ' 
-        ' PickupLabel
-        ' 
-        PickupLabel.Anchor = AnchorStyles.Top
-        PickupLabel.AutoSize = True
-        PickupLabel.Location = New Point(207, 11)
-        PickupLabel.Name = "PickupLabel"
-        PickupLabel.Size = New Size(100, 15)
-        PickupLabel.TabIndex = 6
-        PickupLabel.Text = "Pick-up location :"
-        ' 
-        ' DestinationLabel
-        ' 
-        DestinationLabel.Anchor = AnchorStyles.Top
-        DestinationLabel.AutoSize = True
-        DestinationLabel.Location = New Point(471, 8)
-        DestinationLabel.Name = "DestinationLabel"
-        DestinationLabel.Size = New Size(73, 15)
-        DestinationLabel.TabIndex = 7
-        DestinationLabel.Text = "Destination :"
-        ' 
-        ' DestinationComboBox
-        ' 
-        DestinationComboBox.Anchor = AnchorStyles.Top
-        DestinationComboBox.AutoCompleteCustomSource.AddRange(New String() {"Juja", "Thika", "Naivasha", "Kirinyaga", "Eldoret"})
-        DestinationComboBox.AutoCompleteMode = AutoCompleteMode.Suggest
-        DestinationComboBox.AutoCompleteSource = AutoCompleteSource.ListItems
-        DestinationComboBox.DisplayMember = "Nairobi"
-        DestinationComboBox.FormattingEnabled = True
-        DestinationComboBox.Items.AddRange(New Object() {"Baringo County", "Bomet County", "Bungoma County", "Busia County", "Elgeyo Marakwet County", "Embu County", "Garissa County", "Homa Bay County", "Isiolo County", "Kajiado County", "Kakamega County", "Kericho County", "Kiambu County", "Kilifi County", "Kirinyaga County", "Kisii County", "Kisumu County", "Kitui County", "Kwale County", "Laikipia County", "Lamu County", "Machakos County", "Makueni County", "Mandera County", "Meru County", "Migori County", "Marsabit County", "Mombasa County", "Muranga County", "Nairobi County", "Nakuru County", "Nandi County", "Narok County", "Nyamira County", "Nyandarua County", "Nyeri County", "Samburu County", "Siaya County", "Taita Taveta County", "Tana River County", "Tharaka Nithi County", "Trans Nzoia County", "Turkana County", "Uasin Gishu County", "Vihiga County", "Wajir County", "West Pokot County"})
-        DestinationComboBox.Location = New Point(550, 8)
-        DestinationComboBox.Name = "DestinationComboBox"
-        DestinationComboBox.Size = New Size(152, 23)
-        DestinationComboBox.TabIndex = 8
-        ' 
         ' filterPanel
         ' 
         filterPanel.Controls.Add(SortComboBox)
         filterPanel.Controls.Add(Label1)
-        filterPanel.Controls.Add(PickupLabel)
-        filterPanel.Controls.Add(DestinationComboBox)
-        filterPanel.Controls.Add(PickupComboBox)
-        filterPanel.Controls.Add(DestinationLabel)
         filterPanel.Dock = DockStyle.Top
         filterPanel.Location = New Point(154, 40)
         filterPanel.Name = "filterPanel"
-        filterPanel.Size = New Size(765, 37)
+        filterPanel.Size = New Size(589, 37)
         filterPanel.TabIndex = 9
         ' 
         ' SortComboBox
@@ -294,7 +239,7 @@ Partial Class UserDasboard
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackgroundImageLayout = ImageLayout.None
-        ClientSize = New Size(919, 477)
+        ClientSize = New Size(743, 461)
         Controls.Add(MainFlowLayoutPanel)
         Controls.Add(filterPanel)
         Controls.Add(TopPanel)
@@ -324,10 +269,6 @@ Partial Class UserDasboard
     Friend WithEvents LogoutButton As Button
     Friend WithEvents SearchButton As Button
     Friend WithEvents SearchTextBox As TextBox
-    Friend WithEvents PickupComboBox As ComboBox
-    Friend WithEvents PickupLabel As Label
-    Friend WithEvents DestinationLabel As Label
-    Friend WithEvents DestinationComboBox As ComboBox
     Friend WithEvents filterPanel As Panel
     Friend WithEvents MainFlowLayoutPanel As FlowLayoutPanel
     Friend WithEvents SortComboBox As ComboBox

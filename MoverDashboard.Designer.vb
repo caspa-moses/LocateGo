@@ -146,7 +146,7 @@ Partial Class MoverDashboard
         Controls.Add(Label1)
         Controls.Add(Panel1)
         Icon = CType(resources.GetObject("$this.Icon"), Icon)
-        UserName = "MoverDashboard"
+        UserName.HeaderText = "MoverDashboard"
         Text = "MoverDashboard"
         Panel1.ResumeLayout(False)
         Panel1.PerformLayout()

@@ -11,12 +11,13 @@ Public Class UserDasboard
     Dim categoryState As String
     Dim searchString As String
     Dim conn As New MySqlConnection(GetConnection)
+    Dim moveriD As String
     Private Sub LoadContent(ByVal categoryState As String)
         Try
             conn.Open()
 
-            Dim selectQuery As String = "SELECT Name, Email, Phone,
-Image_path, Rating, Price_per_Kg, Price_per_Km FROM movers_profile WHERE Category = @categoryState "  ' Modified query to match MiniMoverCard fields
+            Dim selectQuery As String = "SELECT  Name, Email, Phone,
+ImagePath, Rating, Price_per_Kg, Price_per_Km FROM Mover WHERE Category = @categoryState "  ' Modified query to match MiniMoverCard fields
 
             Dim movers As New List(Of MiniMoverCard)  ' Create a list to hold MiniMoverCard instances
 
@@ -30,8 +31,9 @@ Image_path, Rating, Price_per_Kg, Price_per_Km FROM movers_profile WHERE Categor
                         Dim miniMoverCard As New MiniMoverCard  ' Create a new MiniMoverCard instance
 
                         ' Set properties on MiniMoverCard (same as previous code)
+                        'moveriD = row("id")
                         miniMoverCard.companynameLabel.Text = row("Name").ToString
-                        miniMoverCard.moverPictureBox.ImageLocation = row("Image_path").ToString
+                        miniMoverCard.moverPictureBox.ImageLocation = row("ImagePath").ToString
                         miniMoverCard.KgTextBox.Text = Convert.ToDecimal(row("Price_per_Kg"))
                         miniMoverCard.kmTextBox.Text = row("Price_per_Km")
                         miniMoverCard.RatingTextBox.Text = row("Rating")
@@ -64,7 +66,7 @@ Image_path, Rating, Price_per_Kg, Price_per_Km FROM movers_profile WHERE Categor
                 Next
             Else
                 ' Handle case where no movers found 
-                MessageBox.Show("No business movers found in the database.")
+                MessageBox.Show("No User Found", "Notification", MessageBoxButtons.OK, MessageBoxIcon.Error)
             End If
 
         Catch ex As Exception
@@ -79,7 +81,7 @@ Image_path, Rating, Price_per_Kg, Price_per_Km FROM movers_profile WHERE Categor
         Try
             conn.Open()
             Dim selectQuery As String = "SELECT Name, Email, Phone,
-Image_path, Rating, Price_per_Kg, Price_per_Km FROM movers_profile"
+ImagePath, Rating, Price_per_Kg, Price_per_Km FROM mover"
 
             Dim command As New MySqlCommand(selectQuery, conn)
 
@@ -91,7 +93,7 @@ Image_path, Rating, Price_per_Kg, Price_per_Km FROM movers_profile"
                 If Regex.IsMatch(name, Regexpattern, RegexOptions.IgnoreCase) Then
                     Dim miniMoverCard As New MiniMoverCard
                     miniMoverCard.companynameLabel.Text = row("Name").ToString
-                    miniMoverCard.moverPictureBox.ImageLocation = row("Image_path").ToString
+                    miniMoverCard.moverPictureBox.ImageLocation = row("ImagePath").ToString
                     miniMoverCard.KgTextBox.Text = Convert.ToDecimal(row("Price_per_Kg"))
                     miniMoverCard.kmTextBox.Text = row("Price_per_Km")
                     miniMoverCard.RatingTextBox.Text = row("Rating")
@@ -120,7 +122,7 @@ Image_path, Rating, Price_per_Kg, Price_per_Km FROM movers_profile"
                 Next
             Else
                 ' Handle case where no movers found 
-                MessageBox.Show("No business movers found in the database.")
+                MessageBox.Show("No User Found", "Notification", MessageBoxButtons.OK, MessageBoxIcon.Error)
             End If
 
 
@@ -217,7 +219,7 @@ Image_path, Rating, Price_per_Kg, Price_per_Km FROM movers_profile"
         ElseIf categoryState = "Farm" Then
             FarmButton.BackColor = Color.FromArgb(168, 100, 30)
             previousSelectedButton = FarmButton
-        ElseIf categoryState = "Courier service" Then
+        ElseIf categoryState = "Courier" Then
             CourierButton.BackColor = Color.FromArgb(168, 100, 30)
             previousSelectedButton = CourierButton
         End If
@@ -244,7 +246,7 @@ Image_path, Rating, Price_per_Kg, Price_per_Km FROM movers_profile"
     End Sub
 
     Private Sub CourierButton_Click(sender As Object, e As EventArgs) Handles CourierButton.Click
-        categoryState = "Courier service"
+        categoryState = "Courier"
         ChangeColor(categoryState)
         LoadContent(categoryState)
     End Sub

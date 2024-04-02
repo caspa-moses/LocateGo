@@ -3,56 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\KINOTI\\Documents\\LocateGo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F75C5AB0-FA9D-4F53-860C-6383FA1E5DDA}|LocateGo.vbproj|c:\\users\\kinoti\\documents\\locatego\\userdasboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{F75C5AB0-FA9D-4F53-860C-6383FA1E5DDA}|LocateGo.vbproj|solutionrelative:userdasboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{F75C5AB0-FA9D-4F53-860C-6383FA1E5DDA}|LocateGo.vbproj|C:\\Users\\KINOTI\\Documents\\LocateGo\\locatego.vbproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{F75C5AB0-FA9D-4F53-860C-6383FA1E5DDA}|LocateGo.vbproj|solutionrelative:locatego.vbproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F75C5AB0-FA9D-4F53-860C-6383FA1E5DDA}|LocateGo.vbproj|C:\\Users\\KINOTI\\Documents\\LocateGo\\userdasboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{F75C5AB0-FA9D-4F53-860C-6383FA1E5DDA}|LocateGo.vbproj|solutionrelative:userdasboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F75C5AB0-FA9D-4F53-860C-6383FA1E5DDA}|LocateGo.vbproj|C:\\Users\\KINOTI\\Documents\\LocateGo\\minimovercard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{F75C5AB0-FA9D-4F53-860C-6383FA1E5DDA}|LocateGo.vbproj|solutionrelative:minimovercard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{F75C5AB0-FA9D-4F53-860C-6383FA1E5DDA}|LocateGo.vbproj|c:\\users\\kinoti\\documents\\locatego\\userdasboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{F75C5AB0-FA9D-4F53-860C-6383FA1E5DDA}|LocateGo.vbproj|solutionrelative:userdasboard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F75C5AB0-FA9D-4F53-860C-6383FA1E5DDA}|LocateGo.vbproj|C:\\Users\\KINOTI\\Documents\\LocateGo\\transportdetails.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{F75C5AB0-FA9D-4F53-860C-6383FA1E5DDA}|LocateGo.vbproj|solutionrelative:transportdetails.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{F75C5AB0-FA9D-4F53-860C-6383FA1E5DDA}|LocateGo.vbproj|c:\\users\\kinoti\\documents\\locatego\\login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{F75C5AB0-FA9D-4F53-860C-6383FA1E5DDA}|LocateGo.vbproj|solutionrelative:login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F75C5AB0-FA9D-4F53-860C-6383FA1E5DDA}|LocateGo.vbproj|C:\\Users\\KINOTI\\Documents\\LocateGo\\minimovercard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{F75C5AB0-FA9D-4F53-860C-6383FA1E5DDA}|LocateGo.vbproj|solutionrelative:minimovercard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{F75C5AB0-FA9D-4F53-860C-6383FA1E5DDA}|LocateGo.vbproj|C:\\Users\\KINOTI\\Documents\\LocateGo\\moverdashboard.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{F75C5AB0-FA9D-4F53-860C-6383FA1E5DDA}|LocateGo.vbproj|solutionrelative:moverdashboard.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F75C5AB0-FA9D-4F53-860C-6383FA1E5DDA}|LocateGo.vbproj|c:\\users\\kinoti\\documents\\locatego\\login.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{F75C5AB0-FA9D-4F53-860C-6383FA1E5DDA}|LocateGo.vbproj|solutionrelative:login.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F75C5AB0-FA9D-4F53-860C-6383FA1E5DDA}|LocateGo.vbproj|c:\\users\\kinoti\\documents\\locatego\\form1.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{F75C5AB0-FA9D-4F53-860C-6383FA1E5DDA}|LocateGo.vbproj|solutionrelative:form1.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F75C5AB0-FA9D-4F53-860C-6383FA1E5DDA}|LocateGo.vbproj|C:\\Users\\KINOTI\\Documents\\LocateGo\\transportdetails.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{F75C5AB0-FA9D-4F53-860C-6383FA1E5DDA}|LocateGo.vbproj|solutionrelative:transportdetails.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F75C5AB0-FA9D-4F53-860C-6383FA1E5DDA}|LocateGo.vbproj|C:\\Users\\KINOTI\\Documents\\LocateGo\\signup.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{F75C5AB0-FA9D-4F53-860C-6383FA1E5DDA}|LocateGo.vbproj|solutionrelative:signup.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F75C5AB0-FA9D-4F53-860C-6383FA1E5DDA}|LocateGo.vbproj|C:\\Users\\KINOTI\\Documents\\LocateGo\\helperfunctions.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{F75C5AB0-FA9D-4F53-860C-6383FA1E5DDA}|LocateGo.vbproj|solutionrelative:helperfunctions.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F75C5AB0-FA9D-4F53-860C-6383FA1E5DDA}|LocateGo.vbproj|C:\\Users\\KINOTI\\Documents\\LocateGo\\movercard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{F75C5AB0-FA9D-4F53-860C-6383FA1E5DDA}|LocateGo.vbproj|solutionrelative:movercard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{F75C5AB0-FA9D-4F53-860C-6383FA1E5DDA}|LocateGo.vbproj|C:\\Users\\KINOTI\\Documents\\LocateGo\\transportdetails.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{F75C5AB0-FA9D-4F53-860C-6383FA1E5DDA}|LocateGo.vbproj|solutionrelative:transportdetails.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F75C5AB0-FA9D-4F53-860C-6383FA1E5DDA}|LocateGo.vbproj|C:\\Users\\KINOTI\\Documents\\LocateGo\\movercard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{F75C5AB0-FA9D-4F53-860C-6383FA1E5DDA}|LocateGo.vbproj|solutionrelative:movercard.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{F75C5AB0-FA9D-4F53-860C-6383FA1E5DDA}|LocateGo.vbproj|C:\\Users\\KINOTI\\Documents\\LocateGo\\signup.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{F75C5AB0-FA9D-4F53-860C-6383FA1E5DDA}|LocateGo.vbproj|solutionrelative:signup.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F75C5AB0-FA9D-4F53-860C-6383FA1E5DDA}|LocateGo.vbproj|C:\\Users\\KINOTI\\Documents\\LocateGo\\eachcompany.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{F75C5AB0-FA9D-4F53-860C-6383FA1E5DDA}|LocateGo.vbproj|solutionrelative:eachcompany.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F75C5AB0-FA9D-4F53-860C-6383FA1E5DDA}|LocateGo.vbproj|C:\\Users\\KINOTI\\Documents\\LocateGo\\login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{F75C5AB0-FA9D-4F53-860C-6383FA1E5DDA}|LocateGo.vbproj|solutionrelative:login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F75C5AB0-FA9D-4F53-860C-6383FA1E5DDA}|LocateGo.vbproj|C:\\Users\\KINOTI\\Documents\\LocateGo\\login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{F75C5AB0-FA9D-4F53-860C-6383FA1E5DDA}|LocateGo.vbproj|solutionrelative:login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F75C5AB0-FA9D-4F53-860C-6383FA1E5DDA}|LocateGo.vbproj|C:\\Users\\KINOTI\\Documents\\LocateGo\\eachcompany.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{F75C5AB0-FA9D-4F53-860C-6383FA1E5DDA}|LocateGo.vbproj|solutionrelative:eachcompany.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{F75C5AB0-FA9D-4F53-860C-6383FA1E5DDA}|LocateGo.vbproj|C:\\Users\\KINOTI\\Documents\\LocateGo\\locatego.vbproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F75C5AB0-FA9D-4F53-860C-6383FA1E5DDA}|LocateGo.vbproj|solutionrelative:locatego.vbproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,79 +62,157 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "TransportDetails.vb",
               "DocumentMoniker": "C:\\Users\\KINOTI\\Documents\\LocateGo\\TransportDetails.vb",
               "RelativeDocumentMoniker": "TransportDetails.vb",
               "ToolTip": "C:\\Users\\KINOTI\\Documents\\LocateGo\\TransportDetails.vb",
               "RelativeToolTip": "TransportDetails.vb",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAmAAAA",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAswA8AAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-04-01T05:59:26.157Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Signup.vb",
+              "DocumentMoniker": "C:\\Users\\KINOTI\\Documents\\LocateGo\\Signup.vb",
+              "RelativeDocumentMoniker": "Signup.vb",
+              "ToolTip": "C:\\Users\\KINOTI\\Documents\\LocateGo\\Signup.vb",
+              "RelativeToolTip": "Signup.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFMAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-04-02T02:45:26.287Z",
               "IsPinned": true
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form1.Designer.vb",
+              "DocumentMoniker": "C:\\Users\\KINOTI\\Documents\\LocateGo\\Form1.Designer.vb",
+              "RelativeDocumentMoniker": "Form1.Designer.vb",
+              "ToolTip": "C:\\Users\\KINOTI\\Documents\\LocateGo\\Form1.Designer.vb",
+              "RelativeToolTip": "Form1.Designer.vb",
+              "ViewState": "AQIAAL0AAAAAAAAAAAAowNAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-04-02T05:51:56.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.Designer.vb",
+              "DocumentMoniker": "C:\\Users\\KINOTI\\Documents\\LocateGo\\Login.Designer.vb",
+              "RelativeDocumentMoniker": "Login.Designer.vb",
+              "ToolTip": "C:\\Users\\KINOTI\\Documents\\LocateGo\\Login.Designer.vb",
+              "RelativeToolTip": "Login.Designer.vb",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAAAFAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-04-02T05:51:25.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Login.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\KINOTI\\Documents\\LocateGo\\Login.vb",
+              "RelativeDocumentMoniker": "Login.vb",
+              "ToolTip": "C:\\Users\\KINOTI\\Documents\\LocateGo\\Login.vb [Design]",
+              "RelativeToolTip": "Login.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-04-02T05:36:00.695Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MoverDashboard.Designer.vb",
+              "DocumentMoniker": "C:\\Users\\KINOTI\\Documents\\LocateGo\\MoverDashboard.Designer.vb",
+              "RelativeDocumentMoniker": "MoverDashboard.Designer.vb",
+              "ToolTip": "C:\\Users\\KINOTI\\Documents\\LocateGo\\MoverDashboard.Designer.vb",
+              "RelativeToolTip": "MoverDashboard.Designer.vb",
+              "ViewState": "AQIAAIQAAAAAAAAAAAAowJQAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-04-02T04:52:33.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserDasboard.vb",
+              "DocumentMoniker": "C:\\Users\\KINOTI\\Documents\\LocateGo\\UserDasboard.vb",
+              "RelativeDocumentMoniker": "UserDasboard.vb",
+              "ToolTip": "C:\\Users\\KINOTI\\Documents\\LocateGo\\UserDasboard.vb",
+              "RelativeToolTip": "UserDasboard.vb",
+              "ViewState": "AQIAAO8AAAAAAAAAAAAvwP4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-03-31T10:41:19.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LocateGo",
+              "DocumentMoniker": "C:\\Users\\KINOTI\\Documents\\LocateGo\\LocateGo.vbproj",
+              "RelativeDocumentMoniker": "LocateGo.vbproj",
+              "ToolTip": "C:\\Users\\KINOTI\\Documents\\LocateGo\\LocateGo.vbproj",
+              "RelativeToolTip": "LocateGo.vbproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003380|",
+              "WhenOpened": "2024-04-02T02:48:04.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LocateGo",
+              "DocumentMoniker": "C:\\Users\\KINOTI\\Documents\\LocateGo\\LocateGo.vbproj",
+              "RelativeDocumentMoniker": "LocateGo.vbproj",
+              "ToolTip": "C:\\Users\\KINOTI\\Documents\\LocateGo\\LocateGo.vbproj",
+              "RelativeToolTip": "LocateGo.vbproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003380|",
+              "WhenOpened": "2024-04-02T02:48:00.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Signup.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\KINOTI\\Documents\\LocateGo\\Signup.vb",
+              "RelativeDocumentMoniker": "Signup.vb",
+              "ToolTip": "C:\\Users\\KINOTI\\Documents\\LocateGo\\Signup.vb [Design]",
+              "RelativeToolTip": "Signup.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-04-02T02:44:36.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "TransportDetails.vb [Design]",
               "DocumentMoniker": "C:\\Users\\KINOTI\\Documents\\LocateGo\\TransportDetails.vb",
               "RelativeDocumentMoniker": "TransportDetails.vb",
               "ToolTip": "C:\\Users\\KINOTI\\Documents\\LocateGo\\TransportDetails.vb [Design]",
               "RelativeToolTip": "TransportDetails.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-04-01T05:51:33.032Z"
+              "WhenOpened": "2024-04-01T05:51:33.032Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MiniMoverCard.vb",
-              "DocumentMoniker": "C:\\Users\\KINOTI\\Documents\\LocateGo\\MiniMoverCard.vb",
-              "RelativeDocumentMoniker": "MiniMoverCard.vb",
-              "ToolTip": "C:\\Users\\KINOTI\\Documents\\LocateGo\\MiniMoverCard.vb",
-              "RelativeToolTip": "MiniMoverCard.vb",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAowF4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-03-31T22:55:42.108Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MiniMoverCard.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\KINOTI\\Documents\\LocateGo\\MiniMoverCard.vb",
-              "RelativeDocumentMoniker": "MiniMoverCard.vb",
-              "ToolTip": "C:\\Users\\KINOTI\\Documents\\LocateGo\\MiniMoverCard.vb [Design]",
-              "RelativeToolTip": "MiniMoverCard.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-03-31T22:54:25.137Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "HelperFunctions.vb",
               "DocumentMoniker": "C:\\Users\\KINOTI\\Documents\\LocateGo\\HelperFunctions.vb",
               "RelativeDocumentMoniker": "HelperFunctions.vb",
               "ToolTip": "C:\\Users\\KINOTI\\Documents\\LocateGo\\HelperFunctions.vb",
               "RelativeToolTip": "HelperFunctions.vb",
-              "ViewState": "AQIAAAAAAAAAAAAAAAA6wAIAAABwAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAB1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-03-31T11:01:13.033Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserDasboard.vb",
-              "DocumentMoniker": "C:\\Users\\KINOTI\\Documents\\LocateGo\\UserDasboard.vb",
-              "RelativeDocumentMoniker": "UserDasboard.vb",
-              "ToolTip": "C:\\Users\\KINOTI\\Documents\\LocateGo\\UserDasboard.vb",
-              "RelativeToolTip": "UserDasboard.vb",
-              "ViewState": "AQIAAPcAAAAAAAAAAAAAAAcBAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-03-31T10:41:19.159Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -147,75 +225,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-03-31T10:10:44.066Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EachCompany.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\KINOTI\\Documents\\LocateGo\\EachCompany.vb",
-              "RelativeDocumentMoniker": "EachCompany.vb",
-              "ToolTip": "C:\\Users\\KINOTI\\Documents\\LocateGo\\EachCompany.vb [Design]",
-              "RelativeToolTip": "EachCompany.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-03-31T10:10:18.648Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MoverCard.vb",
-              "DocumentMoniker": "C:\\Users\\KINOTI\\Documents\\LocateGo\\MoverCard.vb",
-              "RelativeDocumentMoniker": "MoverCard.vb",
-              "ToolTip": "C:\\Users\\KINOTI\\Documents\\LocateGo\\MoverCard.vb",
-              "RelativeToolTip": "MoverCard.vb",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-03-31T06:29:50.5Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "EachCompany.vb",
-              "DocumentMoniker": "C:\\Users\\KINOTI\\Documents\\LocateGo\\EachCompany.vb",
-              "RelativeDocumentMoniker": "EachCompany.vb",
-              "ToolTip": "C:\\Users\\KINOTI\\Documents\\LocateGo\\EachCompany.vb",
-              "RelativeToolTip": "EachCompany.vb",
-              "ViewState": "AQIAAAAAAAAAAAAAAAA6wAIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-03-31T06:22:35.306Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MoverCard.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\KINOTI\\Documents\\LocateGo\\MoverCard.vb",
-              "RelativeDocumentMoniker": "MoverCard.vb",
-              "ToolTip": "C:\\Users\\KINOTI\\Documents\\LocateGo\\MoverCard.vb [Design]",
-              "RelativeToolTip": "MoverCard.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-03-31T05:40:09.234Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Login.vb",
-              "DocumentMoniker": "C:\\Users\\KINOTI\\Documents\\LocateGo\\Login.vb",
-              "RelativeDocumentMoniker": "Login.vb",
-              "ToolTip": "C:\\Users\\KINOTI\\Documents\\LocateGo\\Login.vb",
-              "RelativeToolTip": "Login.vb",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-03-30T19:26:06.472Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Login.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\KINOTI\\Documents\\LocateGo\\Login.vb",
-              "RelativeDocumentMoniker": "Login.vb",
-              "ToolTip": "C:\\Users\\KINOTI\\Documents\\LocateGo\\Login.vb [Design]",
-              "RelativeToolTip": "Login.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-03-30T19:26:04.166Z"
             }
           ]
         }

@@ -206,7 +206,7 @@ Partial Class MoversSignup
         ' 
         AutoScaleDimensions = New SizeF(10.0F, 25.0F)
         AutoScaleMode = AutoScaleMode.Font
-        BackgroundImage = My.Resources.Resources.signup
+        'BackgroundImage = My.Resources.Resources.signup
         BackgroundImageLayout = ImageLayout.Stretch
         ClientSize = New Size(1158, 703)
         Controls.Add(Label1)

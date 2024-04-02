@@ -76,18 +76,18 @@ Public Class Signup
     End Function
 
     Private Sub SubmitFormData()
-        sqlconn = New MySqlConnection
-        sqlconn.ConnectionString = "server=localhost;userid=root;password=Ann Tonui23;database=sys"
+        sqlconn = New MySqlConnection(GetConnection())
         Dim password As String = PasswordTxtBox.Text
         ' Hash the password
         Dim hashedPassword As String = HashPassword(password)
         Dim Query As String
-        Query = "INSERT INTO users(First_Name, Last_Name, Phone_Number, email, pswd)
+        Query = "INSERT INTO User(First_Name, Last_Name, Phone_Number, email, pswd)
             VALUES('" & FirstNameTextbox.Text & "','" & LastNameTxtbox.Text & "','" & PhoneTextbox.Text & "',
             '" & EmailTxtBox.Text & "','" & hashedPassword & "')"
 
         Try
             sqlconn.Open()
+            MessageBox.Show("connection successful")
 
             COMMAND = New MySqlCommand(Query, sqlconn)
 
@@ -122,5 +122,7 @@ Public Class Signup
         Me.Hide()
     End Sub
 
+    Private Sub Signup_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
+    End Sub
 End Class

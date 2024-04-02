@@ -78,7 +78,7 @@ Partial Class LOGIN
         ' 
         AutoScaleDimensions = New SizeF(10F, 25F)
         AutoScaleMode = AutoScaleMode.Font
-        BackgroundImage = My.Resources.Resources.WhatsApp_Image_2024_03_29_at_18_49_43_633f50f6
+        'BackgroundImage = My.Resources.Resources.WhatsApp_Image_2024_03_29_at_18_49_43_633f50f6
         ClientSize = New Size(799, 450)
         Controls.Add(Label2)
         Controls.Add(EmailLabel)
