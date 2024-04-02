@@ -8,17 +8,40 @@
     <MyType>WindowsForms</MyType>
     <SupportedOSPlatformVersion>8.0</SupportedOSPlatformVersion>
     <ApplicationIcon>images\app.ico</ApplicationIcon>
-    <UseWPF>True</UseWPF>
+    <UseWPF>False</UseWPF>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="star-icon-2.jpg" />
+    <None Remove="whitestar-icon.jpg" />
+  </ItemGroup>
 
   <ItemGroup>
     <Content Include="images\app.ico" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="star-icon-2.jpg" />
+    <EmbeddedResource Include="whitestar-icon.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Import Include="System.Data" />
     <Import Include="System.Drawing" />
     <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="8.3.0" />
+    <PackageReference Include="MySqlConnector" Version="2.3.6" />
+    <PackageReference Include="Syncfusion.Pdf.WinForms" Version="25.1.37" />
+    <PackageReference Include="Syncfusion.Tools.Windows" Version="25.1.37" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\..\..\Program Files (x86)\MySQL\Connector NET 8.0\Assemblies\net6.0\MySql.Data.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
   <ItemGroup>

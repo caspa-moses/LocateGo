@@ -22,9 +22,26 @@ Partial Class EachCompany
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Text = "EachCompany"
+        MoverCard1 = New MoverCard()
+        SuspendLayout()
+        ' 
+        ' MoverCard1
+        ' 
+        MoverCard1.Location = New Point(129, 12)
+        MoverCard1.Name = "MoverCard1"
+        MoverCard1.Size = New Size(273, 429)
+        MoverCard1.TabIndex = 0
+        ' 
+        ' EachCompany
+        ' 
+        AutoScaleDimensions = New SizeF(7F, 15F)
+        AutoScaleMode = AutoScaleMode.Font
+        ClientSize = New Size(552, 443)
+        Controls.Add(MoverCard1)
+        Name = "EachCompany"
+        Text = "EachCompany"
+        ResumeLayout(False)
     End Sub
+
+    Friend WithEvents MoverCard1 As MoverCard
 End Class

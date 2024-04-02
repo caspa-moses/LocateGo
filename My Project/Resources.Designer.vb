@@ -73,6 +73,16 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property app() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("app", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property appointment_reminders_16() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("appointment-reminders-16", resourceCulture)
@@ -193,6 +203,16 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property star_icon_2() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("star-icon-2", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property tractor_24() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("tractor-24", resourceCulture)
@@ -206,6 +226,16 @@ Namespace My.Resources
         Friend ReadOnly Property tractor_32() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("tractor-32", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property whitestar_icon() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("whitestar-icon", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

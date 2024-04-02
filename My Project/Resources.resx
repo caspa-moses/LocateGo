@@ -151,6 +151,9 @@
   <data name="appointment-reminders-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\appointment-reminders-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="delivery-24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delivery-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="account-logout-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\account-logout-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -160,7 +163,13 @@
   <data name="map-marker-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\map-marker-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="delivery-24" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\delivery-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="app" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\app.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="star-icon-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\star-icon-2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="whitestar-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\whitestar-icon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

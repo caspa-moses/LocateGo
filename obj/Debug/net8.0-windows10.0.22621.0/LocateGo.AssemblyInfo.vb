@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("LocateGo"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4344939713bc1bfd403e8eb60ddfe857ff257a36"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("LocateGo"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("LocateGo"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _

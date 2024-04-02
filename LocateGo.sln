@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34701.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "LocateGo", "LocateGo.vbproj", "{F75C5AB0-FA9D-4F53-860C-6383FA1E5DDA}"
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "LocateGo", "LocateGo.vbproj", "{F75C5AB0-FA9D-4F53-860C-6383FA1E5DDA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

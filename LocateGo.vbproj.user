@@ -7,11 +7,20 @@
     <Compile Update="Login.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="MiniMoverCard.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="MoverCard.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="MoverDashboard.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Signup.vb">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TransportDetails.vb">
+      <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="UserDasboard.vb">
       <SubType>Form</SubType>
