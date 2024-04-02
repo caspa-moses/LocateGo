@@ -1,43 +1,126 @@
-﻿Imports System.Text.RegularExpressions
+﻿Imports System.Text
+Imports System.Text.RegularExpressions
+Imports MySql.Data.MySqlClient
+Imports System.Windows.Forms ' Import necessary namespace for MessageBox
+Imports System.Security.Cryptography ' Import necessary namespace for SHA256Managed
 
 
 Public Class Signup
-
-    Private FirstNameValid As Boolean 'Is Name  Valid?
-    Private LastnameValid As Boolean 'Is Surname Valid?
-    Private PhoneValid As Boolean 'Is Phone Number Valid?
-    Private EmailValid As Boolean 'Is Email Valid?
-
-
-    Private Sub Signup_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
-    End Sub
-
-    Private Sub FirstNameTextbox_TextChanged(sender As Object, e As EventArgs) Handles FirstNameTextbox.TextChanged
-        If FirstNameTextbox.Text.Length() < 5 Then
-            FirstNameTextBoxValidation.Text = "name must be longer than 5"
-        Else
-            FirstNameTextBoxValidation.Text = ""
-        End If
-    End Sub
+    Dim sqlconn As MySqlConnection
+    Dim COMMAND As MySqlCommand
 
     Private Sub SignupButton_Click(sender As Object, e As EventArgs) Handles SignupButton.Click
-        If String.IsNullOrEmpty(FirstNameTextbox.Text) OrElse
-            String.IsNullOrEmpty(LastNameTxtbox.Text) OrElse
-            String.IsNullOrEmpty(PhoneTextbox.Text) OrElse
-            String.IsNullOrEmpty(PasswordTxtBox.Text) OrElse
-            String.IsNullOrEmpty(ConfirmPasswordTXTbox.Text) Then
-            MessageBox.Show("Fill All Fields", "Empty Field", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        If String.IsNullOrWhiteSpace(FirstNameTextbox.Text) OrElse
+           String.IsNullOrWhiteSpace(LastNameTxtbox.Text) OrElse
+           String.IsNullOrWhiteSpace(PhoneTextbox.Text) OrElse
+           String.IsNullOrWhiteSpace(EmailTxtBox.Text) OrElse
+           String.IsNullOrWhiteSpace(PasswordTxtBox.Text) OrElse
+           String.IsNullOrWhiteSpace(ConfirmPasswordTXTbox.Text) Then
+            'prompt user to fill in all the fields
+            MessageBox.Show("Please fill in all fields.", "Incomplete Form", MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
+            Return
         End If
-    End Sub
 
-    Private Sub Inputs_Enter(sender As Object, e As EventArgs) Handles Inputs.Enter
-
-    End Sub
-
-    Private Sub ConfirmPasswordTXTbox_TextChanged(sender As Object, e As EventArgs) Handles ConfirmPasswordTXTbox.TextChanged
-        If ConfirmPasswordTXTbox.Text.Equals(PasswordTxtBox.Text) Then
-            passConfirm.Text = "MATCH"
+        If PhoneTextbox.Text.Length <> 10 Then
+            ' Phone number does not contain exactly 10 digits, show error message
+            MessageBox.Show("Phone number must contain exactly 10 digits.", "Invalid Phone Number", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            Return
         End If
+
+        ' Check if email contains '@'
+        If Not EmailTxtBox.Text.Contains("@") Then
+            ' Email does not contain '@', show error message
+            MessageBox.Show("Email address is invalid.", "Invalid Email", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            Return
+        End If
+
+
+        If PasswordTxtBox.Text <> ConfirmPasswordTXTbox.Text Then
+            ' Password and confirm password do not match, show error message
+            MessageBox.Show("Password and Confirm Password do not match.", "Password Mismatch", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            Return
+        End If
+
+        If PasswordTxtBox.Text.Length < 8 OrElse Not ContainsNumber(PasswordTxtBox.Text) Then
+            ' Password does not meet requirements, show error message
+            MessageBox.Show("Password must be at least 8 characters long and contain at least one number.", "Invalid Password", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            Return
+        End If
+
+        SubmitFormData()
+
+
     End Sub
+
+    Private Function HashPassword(ByVal password As String) As String
+        Using sha256 As New SHA256Managed()
+            Dim bytes As Byte() = Encoding.UTF8.GetBytes(password)
+            Dim hashBytes As Byte() = sha256.ComputeHash(bytes)
+            Dim builder As New StringBuilder()
+
+            For Each b As Byte In hashBytes
+                builder.Append(b.ToString("x2"))
+            Next
+
+            Return builder.ToString()
+        End Using
+    End Function
+
+    Private Function ContainsNumber(ByVal input As String) As Boolean
+        For Each c As Char In input
+            If Char.IsDigit(c) Then
+                Return True
+            End If
+        Next
+        Return False
+    End Function
+
+    Private Sub SubmitFormData()
+        sqlconn = New MySqlConnection
+        sqlconn.ConnectionString = "server=localhost;userid=root;password=Ann Tonui23;database=sys"
+        Dim password As String = PasswordTxtBox.Text
+        ' Hash the password
+        Dim hashedPassword As String = HashPassword(password)
+        Dim Query As String
+        Query = "INSERT INTO users(First_Name, Last_Name, Phone_Number, email, pswd)
+            VALUES('" & FirstNameTextbox.Text & "','" & LastNameTxtbox.Text & "','" & PhoneTextbox.Text & "',
+            '" & EmailTxtBox.Text & "','" & hashedPassword & "')"
+
+        Try
+            sqlconn.Open()
+
+            COMMAND = New MySqlCommand(Query, sqlconn)
+
+            Dim rowsAffected As Integer = COMMAND.ExecuteNonQuery()
+
+            If rowsAffected > 0 Then
+                MessageBox.Show("Registration successful!")
+            Else
+                MessageBox.Show("Registration failed!")
+            End If
+
+            sqlconn.Close()
+
+        Catch ex As Exception
+            MessageBox.Show(ex.Message)
+
+        Finally
+            sqlconn.Dispose()
+            FirstNameTextbox.Clear()
+            LastNameTxtbox.Clear()
+            PhoneTextbox.Clear()
+            EmailTxtBox.Clear()
+            PasswordTxtBox.Clear()
+            ConfirmPasswordTXTbox.Clear()
+            UserDasboard.Show()
+            Me.Hide()
+
+        End Try
+    End Sub
+    Private Sub LinkLabel1_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel1.LinkClicked
+        Login.Show()
+        Me.Hide()
+    End Sub
+
+
 End Class
